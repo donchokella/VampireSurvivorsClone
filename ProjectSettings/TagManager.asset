@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Pickup
+  - FoodSupply
   layers:
   - Default
   - TransparentFX
@@ -11,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -38,6 +41,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1947145863
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 1153398299
+    locked: 0
+  - name: Pickups
+    uniqueID: 334560721
+    locked: 0
+  - name: Weapons
+    uniqueID: 69734617
+    locked: 0
+  - name: UI
+    uniqueID: 941377415
+    locked: 0
+  - name: Player
+    uniqueID: 1477947475
     locked: 0
